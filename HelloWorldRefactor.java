@@ -10,9 +10,17 @@ package com.mycompany.helloworldrefactor;
  * @author bacag
  */
 public class HelloWorldRefactor {
+    /*
+        STEPS IN REFACTORING:
+    1. TAKE THE CODE OUT OF THE MAIN CLASS    
+    2. REMOVE THE MAIN CLASS ALL TOGETHER 
+    
     public static void main(String[] args) {
-        
-        System.out.println("Hello, world!");
-        
+    
+    }*/
+    
+    public void sayHello() {
+          System.out.println("Hello, world!");
     }
+    
 }
